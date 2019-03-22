@@ -16,9 +16,12 @@ https://www.packer.io/docs/extend/plugins.html
 
 You can download binary built for your architecture from [latest releases](https://github.com/wata727/packer-post-processor-amazon-ami-management/releases/latest).
 
+
 For example, to install v0.6.0 for 64bit OSX
 
 For Linux based OS, you can use the install_linux.sh to automate the installation process
+
+If you have GO setup already, you can run "make install" to install it.
 
 ```sh
 mkdir -p ~/.packer.d/plugins
@@ -132,6 +135,7 @@ But this Makefile depends on [Go](https://golang.org/) 1.12 or more. At First, y
 ```
 $ GO111MODULE=on make build
 ```
+
 
 
 ## License
